@@ -7,7 +7,7 @@
 	
 	
 	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
-<title>blockchain – 劉承瑋</title>
+<title>劉承瑋</title>
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
 <link rel="dns-prefetch" href="//s.w.org">
 <link href="https://fonts.gstatic.com" crossorigin rel="preconnect">
@@ -140,10 +140,6 @@
 
 
 
-
-
-
-
 <style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><style id="custom-background-css">
 body.custom-background { background-color: #001230; }
 </style>
@@ -153,7 +149,7 @@ body.custom-background { background-color: #001230; }
 <meta name="msapplication-TileImage" content="https://jackeyliutw.github.io/wp-content/uploads/2020/06/cropped-roundprofile5-270x270.png">
 </head>
 
-<body class="page-template-default page page-id-21 custom-background wp-custom-logo wp-embed-responsive">
+<body class="archive date custom-background wp-custom-logo wp-embed-responsive">
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
@@ -202,7 +198,7 @@ body.custom-background { background-color: #001230; }
 									</li>
 					</ul>
 		</aside><aside id="recent-comments-2" class="widget widget_recent_comments"><h2 class="widget-title">近期留言</h2><ul id="recentcomments"><li class="recentcomments">「<span class="comment-author-link"><a href="https://wordpress.org/" rel="external nofollow ugc" class="url">WordPress 示範留言者</a></span>」在〈<a href="https://jackeyliutw.github.io/2020/06/30/13/18/#comment-1">網站第一篇文章</a>〉發佈留言</li></ul></aside><aside id="archives-2" class="widget widget_archive"><h2 class="widget-title">彙整</h2>		<ul>
-				<li><a href="https://jackeyliutw.github.io/2020/06/">2020 年 6 月</a></li>
+				<li><a href="https://jackeyliutw.github.io/2020/06/" aria-current="page">2020 年 6 月</a></li>
 		</ul>
 			</aside><aside id="categories-2" class="widget widget_categories"><h2 class="widget-title">分類</h2>		<ul>
 				<li class="cat-item cat-item-1"><a href="https://jackeyliutw.github.io/category/uncategorized/">未分類</a>
@@ -221,23 +217,88 @@ body.custom-background { background-color: #001230; }
 
 	<div id="content" class="site-content">
 
-	<div id="primary" class="content-area">
+	<section id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
 		
-<article id="post-21" class="post-21 page type-page status-publish hentry">
+			<header class="page-header">
+				<h1 class="page-title">彙整</h1>			</header>
+
+			
+<article id="post-19" class="post-19 post type-post status-publish format-standard hentry category-uncategorized">
 	
 	<header class="entry-header">
-		<h1 class="entry-title">blockchain</h1>	</header>
+		<h2 class="entry-title"><a href="https://jackeyliutw.github.io/2020/06/30/14/01/" rel="bookmark">程式麻瓜打造區塊鏈網站3-css/js和網頁特效</a></h2>	</header>
 
 	<div class="entry-content">
-					</div>
+		
+<p>網頁程式語言可不是只有HTML一種，另外還有兩種常見的語言css和javascript，css是用來作美編的，能控制文字顏色和邊框等…JS則是控制網頁的動作等…</p>
+
+
+
+<p>至於怎麼編寫呢?我這裡暫時就講不太多，我主要教各位如何將她加入網頁以及如何把別人寫好的程式放入自己的網頁裡，畢竟現在那麼多開放無版權的程式碼，隨便挑幾個拼湊起來也是能做出點東西的。</p>
+
+
+
+<p>寫入css和js有兩種方式，一種是直接寫進html程式碼裡，另一種是打包成另一個檔案再引入。</p>
+
+
+
+<ol><li>直接寫入CSS: 在head標籤李新增style標籤</li></ol>
+
+
+
+<figure><iframe width="700" height="250" src="/media/7be2fd914f0a8721a1a12f00a51427c7" allowfullscreen=""></iframe></figure>
+
+
+
+<p>2.直接寫入JS: 在head標籤李新增script標籤</p>
+
+
+
+<figure><iframe width="700" height="250" src="/media/4e827db6c5c5dfc30164b5190dca98af" allowfullscreen=""></iframe></figure>
+
+
+
+<p>接著是引入的方式，首先要先在當初放有index.html的資料夾建立副檔名為style.css與script.js的檔案，如下</p>
+
+
+
+<figure class="wp-block-image"><img src="https://cdn-images-1.medium.com/max/800/1*AZ-f2XStm3ZHuIwutSR3vA.png" alt=""></figure>
+
+
+
+<p>3.引入CSS檔案: 在head加入以下此行，href後面是放檔案名稱，如此，當打開index.html就會讀到css檔案，這個概念和img一樣</p>
+
+
+
+<figure><iframe width="700" height="250" src="/media/a936f81d398136003ce44c77c30b54d2" allowfullscreen=""></iframe></figure>
+
+
+
+<p>4..引入JS檔案: 在head加入以下此行，href後面是放檔案名稱</p>
+
+
+
+<figure><iframe width="700" height="250" src="/media/15f167658570912a47accc33c54db4e3" allowfullscreen=""></iframe></figure>
+
+
+
+<figure><iframe width="700" height="525" src="/media/a7ca572c4b849c2123180b70cc51e856" allowfullscreen=""></iframe></figure>
+
+
+
+<p>像是上面這個codepen網站裡有很多特效，使用方法將html css js 分別複製下來使用，另外還有<a href="https://animista.net/" rel="noreferrer noopener" target="_blank">animista</a>也很好用，如果有更厲害的歡迎留言分享</p>
+	</div>
 
 	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://jackeyliutw.github.io/2020/06/30/14/01/" rel="bookmark"><time class="entry-date published updated" datetime="2020-06-30T14:01:29+08:00">2020 年 6 月 30 日</time></a></span><span class="comments-link"><a href="https://jackeyliutw.github.io/2020/06/30/14/01/#respond">Leave a comment<span class="screen-reader-text"> on 程式麻瓜打造區塊鏈網站3-css/js和網頁特效</span></a></span>			</footer>
+
 </article>
 
 		</main>
-	</div>
+	</section>
 
 
 	</div>
