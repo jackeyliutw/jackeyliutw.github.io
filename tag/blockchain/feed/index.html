@@ -12,7 +12,7 @@
 	<atom:link href="https://jackeyliutw.github.io/tag/blockchain/feed/" rel="self" type="application/rss+xml" />
 	<link>http://jackeyliutw.github.io/</link>
 	<description>JACKEY LIU</description>
-	<lastBuildDate>Tue, 30 Jun 2020 16:17:20 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Jul 2020 04:05:35 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,56 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>程式麻瓜打造區塊鏈網站4-超強大chrome編輯網頁小工具VisBug</title>
+		<link>https://jackeyliutw.github.io/2020/07/01/11/49/79/</link>
+					<comments>https://jackeyliutw.github.io/2020/07/01/11/49/79/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 01 Jul 2020 03:49:23 +0000</pubDate>
+				<category><![CDATA[Blockchain]]></category>
+		<category><![CDATA[blockchain]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[smartcontract]]></category>
+		<category><![CDATA[區塊鏈]]></category>
+		<category><![CDATA[智能合約]]></category>
+		<category><![CDATA[網頁架設]]></category>
+		<category><![CDATA[網頁程式]]></category>
+		<category><![CDATA[網頁設計]]></category>
+		<guid isPermaLink="false">https://jackeyliutw.github.io/?p=79</guid>
+
+					<description><![CDATA[在排版網頁的時候每次都要一直調位置座標超級麻煩(應該是我學藝不精)，還好我發現一個chrome extention VisBug 能以滑鼠直接移動位置。 用法很簡單，首先將你要修改的網頁用chrome開啟，點擊visbug圖示，在左邊的欄位選擇第十個看起來像是方向鍵的圖示，再以拖移的方式調整你要修改的區域 再點visbug圖示，把它關掉，在空白處按右鍵，點檢查，到&#60;html&#62;的標籤上按右鍵複製html程式碼，之後回到編輯器把整個程式碼覆蓋就完成了 當然visbug還有很多功能像是打文字、換顏色之類的，甚至可以直接別人的網頁來修改，建議去實做看看，它可以幫助你更了解整個網頁的標籤功能。]]></description>
+		
+					<wfw:commentRss>https://jackeyliutw.github.io/2020/07/01/11/49/79/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>程式麻瓜打造區塊鏈網站3-css/js和網頁特效</title>
+		<link>https://jackeyliutw.github.io/2020/07/01/00/18/65/</link>
+					<comments>https://jackeyliutw.github.io/2020/07/01/00/18/65/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 30 Jun 2020 16:18:29 +0000</pubDate>
+				<category><![CDATA[Blockchain]]></category>
+		<category><![CDATA[blockchain]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[smartcontract]]></category>
+		<category><![CDATA[區塊鏈]]></category>
+		<category><![CDATA[智能合約]]></category>
+		<category><![CDATA[網頁架設]]></category>
+		<category><![CDATA[網頁程式]]></category>
+		<category><![CDATA[網頁設計]]></category>
+		<guid isPermaLink="false">https://jackeyliutw.github.io/?p=65</guid>
+
+					<description><![CDATA[網頁程式語言可不是只有HTML一種，另外還有兩種常見的語言css和javascript，css是用來作美編的，能控制文字顏色和邊框等&#8230;JS則是控制網頁的動作等&#8230; 至於怎麼編寫呢?我這裡暫時就講不太多，我主要教各位如何將她加入網頁以及如何把別人寫好的程式放入自己的網頁裡，畢竟現在那麼多開放無版權的程式碼，隨便挑幾個拼湊起來也是能做出像樣的東西。 寫入css和js有以下幾種方式: 一.CSS: 1.Inline Style直接在標籤內添加CSS: &#60;p style=”color:yellow; font-size:2em”&#62;CSS教學&#60;/p&#62; 2.Internal Style Sheet: 在&#60;head&#62;標籤內統一管理樣式: &#60;head&#62;&#60;style&#62;h1 {color:green;}/* 把h1定義為綠色*/&#60;/style&#62;&#60;/head&#62; 3. Enternal Style Sheet — link: 引入CSS檔案，在head加入以下此行，href後面是放檔案名稱，如此，當打開index.html就會讀到css檔案，這個概念和img一樣 &#60;head&#62;&#60;link href=”./CSS檔名.css” rel=”stylesheet”&#62;&#60;/head&#62; 這方法要先在當初放有index.html的資料夾建立副檔名為.css的檔案，如下 上述各方法的衝突時的優先：Inline &#62; Internal &#62; Link/Import &#62;Browser Default 二.JAVASCRIPT: 1.internal script:在&#60;body&#62;標籤內插入script &#60;body&#62;&#60;script&#62;JS程式碼&#60;/script&#62;&#60;/body&#62; 2.external:引入JS檔案，在body加入以下此行，href後面是放檔案名稱 &#60;body&#62;&#60;script src=”./檔名.js”&#62;&#60;/script&#62;&#60;/body&#62; 像是上面這個codepen網站裡有很多特效，使用方法將html css js 分別複製下來使用，另外還有animista也很好用，如果有更厲害的資源歡迎留言分享]]></description>
+		
+					<wfw:commentRss>https://jackeyliutw.github.io/2020/07/01/00/18/65/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>程式麻瓜打造區塊鏈網站2-HTML</title>
 		<link>https://jackeyliutw.github.io/2020/07/01/00/03/57/</link>
 					<comments>https://jackeyliutw.github.io/2020/07/01/00/03/57/#respond</comments>
@@ -41,6 +91,8 @@
 		<category><![CDATA[區塊鏈]]></category>
 		<category><![CDATA[智能合約]]></category>
 		<category><![CDATA[網頁架設]]></category>
+		<category><![CDATA[網頁程式]]></category>
+		<category><![CDATA[網頁設計]]></category>
 		<guid isPermaLink="false">https://jackeyliutw.github.io/?p=57</guid>
 
 					<description><![CDATA[HTML是一種網頁程式，他的架構是由標籤組成，&#60;html&#62;這個標籤包著&#60;head&#62;和&#60;body&#62;，這兩個標籤又包著其他標籤，&#60;head&#62;裡面主要放瀏覽器上標籤頁的標題title和其引入其他程式的連結，&#60;body&#62;就是放要顯示在網頁的內容如文字、照片等，而標籤的結尾是&#60;/&#62;，以下直接由範例說明: 1.&#60;!DOCTYPE html&#62; 這行就只是說明這是HTML檔案 沒什麼功能&#160; 2.&#60;! -- --&#62; 這個箭頭加驚嘆號裡可以放註解 不會顯示 3.&#60;title&#62;第一頁&#60;/title&#62; title裡是分頁(tab)的標題&#160; 4.&#60;h1&#62;個人檔案&#60;/h1&#62; h1裡包要顯示在網頁的文字 數字表示文字大小 最多到6&#160; &#60;p&#62;頭貼&#60;p/&#62; &#160; p一樣包文字 顯示出來是一般文字&#160; 5.&#60;hr/&#62; hr/換行 6.&#60;img src=”me.png” /&#62; &#160;img是圖片src是圖片位置 圖片直接放在你建立的含有index.html的資料夾內 src=”放檔名” 7.&#60;a href=”https://rinkeby.etherscan.io/" target=”_blank”&#62;etherscan 查詢網站&#60;/a&#62; a可以超連結文字 用herf=”網址”表示 target=”_blank”表示用新的分頁開啟 8. &#60;input type =”checkbox” name=”gender” value=”1"/&#62;male input 是輸入 type是種類 checkbox是多選盒 9.&#60;form&#62; 是表單裡面放文字輸入框和提交按鈕 如下 &#60;input type=”text” name=”name”&#62;&#160;text是一般的人字輸入框 只有一行&#160; &#60;input type=”email” name=”mail”&#62;email只能輸入email形式&#160; &#8230; <a href="https://jackeyliutw.github.io/2020/07/01/00/03/57/" class="more-link">Continue reading <span class="screen-reader-text">程式麻瓜打造區塊鏈網站2-HTML</span></a>]]></description>
@@ -64,6 +116,8 @@
 		<category><![CDATA[區塊鏈]]></category>
 		<category><![CDATA[智能合約]]></category>
 		<category><![CDATA[網頁架設]]></category>
+		<category><![CDATA[網頁程式]]></category>
+		<category><![CDATA[網頁設計]]></category>
 		<guid isPermaLink="false">https://jackeyliutw.github.io/?p=50</guid>
 
 					<description><![CDATA[<!-- wp:paragraph {"fontSize":"medium"} -->
@@ -97,6 +151,8 @@
 		<category><![CDATA[區塊鏈]]></category>
 		<category><![CDATA[智能合約]]></category>
 		<category><![CDATA[網頁架設]]></category>
+		<category><![CDATA[網頁程式]]></category>
+		<category><![CDATA[網頁設計]]></category>
 		<guid isPermaLink="false">https://jackeyliutw.github.io/?p=46</guid>
 
 					<description><![CDATA[最近越來越多幾乎無程式基礎的同學開始問我程式相關問題，才發現原來這幾個月來不知不覺學了不少功夫，都要感謝一路上無私奉獻的高手們，所以我打算把所學分享出來，也許能幫到一些像之前的我一樣無程式基礎的麻瓜。如果已經有寫過網頁程式，請直接跳到智能合約的部分。 在這一系列我將會由網頁程式說明到智能合約大概10篇文章: 1.網頁的編輯方法(FILE ，INSPECT 2.網頁的基本架構-HTML標籤 3.網頁的基本架構-CSS,JS(特效用法 4.超強大chrome編輯網頁小工具VisBug(000架站) 5.智能合約介紹(功能 環境 6.solidity各種(VAR PUB OWNERONLY 7.solidity各種(EVENT 8.solidity各種(MAPPING 9.連接MATAMASK 10.導入合約 11.網頁和合約互動]]></description>
