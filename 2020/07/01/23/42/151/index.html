@@ -17,11 +17,12 @@
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="程式麻瓜打造區塊鏈網站2-HTML介紹 - 劉承瑋">
-	<meta property="og:description" content='HTML是一種網頁程式，他的架構是由標籤組成，這個標籤包著和，這兩個標籤又包著其他標籤，裡面主要放瀏覽器上標籤頁的標題title和其引入其他程式的連結，就是放要顯示在網頁的內容如文字、照片等，而標籤的結尾是</>，以下直接由範例說明: 1.<!DOCTYPE html> 這行就只是說明這是HTML檔案 沒什麼功能  2.<! -- --> 這個箭頭加驚嘆號裡可以放註解 不會顯示 3.<title>第一頁</title> title裡是分頁(tab)的標題  4.<h1>個人檔案</h1> h1裡包要顯示在網頁的文字 數字表示文字大小 最多到6 <p>頭貼</p> p一樣包文字 顯示出來是一般文字  5.<hr/> hr/換行 6.<img src=”me.png” />  img是圖片src是圖片位置 圖片直接放在你建立的含有index.html的資料夾內 src=”放檔名” 7.<a href=”https://rinkeby.etherscan.io/" target=”_blank”>etherscan 查詢網站</a> a可以超連結文字 用herf=”網址”表示 target=”_blank”表示用新的分頁開啟 8. <input type =”checkbox” name=”gender” value=”1"/>male input 是輸入 type是種類 checkbox是多選盒 9.<form></form> 是表單裡面放文字輸入框和提交按鈕 如下 <input type=”text” name=”name”> text是一般的人字輸入框 只有一行  <input type=”email” name=”mail”> email只能輸入email形式  <textarea … Continue reading 程式麻瓜打造區塊鏈網站2-HTML介紹'>
+	<meta property="og:description" content="HTML是一種網頁程式，他的架構是由標籤組成，這個標籤包著和，這兩個標籤又包著其他標籤，裡面主要放瀏覽器上標籤頁的標題title和其引入其他程式的連結，就是放要顯示在網頁的內容如文字、照片等，而標籤的結尾是</>，以下直接由範例說明: 這行就只是說明這是HTML檔案 沒什麼功能  這個箭頭加驚嘆號裡可以放註解 不會顯示 title裡是分頁(tab)的標題  h1裡包要顯示在網頁的文字 數字表示文字大小 最多到6 p一樣包文字 顯示出來是一般文字  hr/換行  img是圖片src是圖片位置 圖片直接放在你建立的含有index.html的資料夾內 src=”放檔名” a可以超連結文字 用herf=”網址”表示 target=”_blank”表示用新的分頁開啟 input 是輸入 type是種類 checkbox是多選盒 是表單裡面放文字輸入框和提交按鈕 如下 text是一般的人字輸入框 只有一行  email只能輸入email形式  textarea是無限大的文字框  button是按紐 class決定按紐的形狀等 onclick是只當他被點下會執行甚麼之後在JS會提到  以下是整個網頁程式的範例，將整個HTML碼複製起來貼到vscode裡你創建的index.html再用瀏覽器index.html打開就能看到效果了 基本上只要自己實際複製貼上到自己的電腦裡玩玩，像是改文字、改順序之類的，就大概了解HTML怎麼用了。若覺得我講的不清楚歡迎留言或私訊我。">
 	<meta property="og:url" content="https://jackeyliutw.github.io/2020/07/01/23/42/151/">
 	<meta property="og:site_name" content="劉承瑋">
 	<meta property="article:published_time" content="2020-07-01T15:42:58+00:00">
-	<meta property="article:modified_time" content="2020-07-01T15:43:00+00:00">
+	<meta property="article:modified_time" content="2020-07-01T16:34:32+00:00">
+	<meta property="og:image" content="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-248.png">
 	<meta name="twitter:card" content="summary_large_image">
 	<script type="application/ld+json" class="yoast-schema-graph">{
 	    "@context": "https://schema.org",
@@ -45,6 +46,14 @@
 	            "inLanguage": "en-US"
 	        },
 	        {
+	            "@type": "ImageObject",
+	            "@id": "https://jackeyliutw.github.io/2020/07/01/23/42/151/#primaryimage",
+	            "inLanguage": "en-US",
+	            "url": "https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-248.png",
+	            "width": 626,
+	            "height": 76
+	        },
+	        {
 	            "@type": "WebPage",
 	            "@id": "https://jackeyliutw.github.io/2020/07/01/23/42/151/#webpage",
 	            "url": "https://jackeyliutw.github.io/2020/07/01/23/42/151/",
@@ -52,8 +61,11 @@
 	            "isPartOf": {
 	                "@id": "https://jackeyliutw.github.io/#website"
 	            },
+	            "primaryImageOfPage": {
+	                "@id": "https://jackeyliutw.github.io/2020/07/01/23/42/151/#primaryimage"
+	            },
 	            "datePublished": "2020-07-01T15:42:58+00:00",
-	            "dateModified": "2020-07-01T15:43:00+00:00",
+	            "dateModified": "2020-07-01T16:34:32+00:00",
 	            "inLanguage": "en-US",
 	            "potentialAction": [
 	                {
@@ -75,13 +87,16 @@
 	            },
 	            "headline": "\u7a0b\u5f0f\u9ebb\u74dc\u6253\u9020\u5340\u584a\u93c8\u7db2\u7ad92-HTML\u4ecb\u7d39",
 	            "datePublished": "2020-07-01T15:42:58+00:00",
-	            "dateModified": "2020-07-01T15:43:00+00:00",
+	            "dateModified": "2020-07-01T16:34:32+00:00",
 	            "commentCount": 0,
 	            "mainEntityOfPage": {
 	                "@id": "https://jackeyliutw.github.io/2020/07/01/23/42/151/#webpage"
 	            },
 	            "publisher": {
 	                "@id": "https://jackeyliutw.github.io/#/schema/person/ca50629b27581aabd9165a1e3539cd39"
+	            },
+	            "image": {
+	                "@id": "https://jackeyliutw.github.io/2020/07/01/23/42/151/#primaryimage"
 	            },
 	            "articleSection": "Blockchain",
 	            "inLanguage": "en-US",
@@ -323,7 +338,7 @@ body.custom-background { background-color: #001230; }
 
 
 
-<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="xml">1.<span class="hljs-meta" style="color: rgb(31, 113, 153);"><!DOCTYPE html></span></span></pre>
+<figure class="wp-block-image size-large is-resized"><img src="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-248.png" alt="" class="wp-image-165" width="528" height="64" srcset="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-248.png 626w,https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-248-300x36.png 300w" sizes="(max-width: 528px) 100vw, 528px"></figure>
 
 
 
@@ -331,7 +346,7 @@ body.custom-background { background-color: #001230; }
 
 
 
-<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-number" style="color: rgb(136, 0, 0);">2</span>.<! -- --></pre>
+<figure class="wp-block-image size-large"><img src="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-250.png" alt="" class="wp-image-168" srcset="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-250.png 640w,https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-250-300x38.png 300w" sizes="(max-width: 640px) 100vw, 640px"></figure>
 
 
 
@@ -339,7 +354,7 @@ body.custom-background { background-color: #001230; }
 
 
 
-<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">3.<span class="hljs-attribute" style="font-weight: 700;"><title></span>第一頁<span class="hljs-attribute" style="font-weight: 700;"></title></span></pre>
+<figure class="wp-block-image size-large"><img src="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-251.png" alt="" class="wp-image-169" srcset="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-251.png 633w,https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-251-300x37.png 300w" sizes="(max-width: 633px) 100vw, 633px"></figure>
 
 
 
@@ -347,7 +362,7 @@ body.custom-background { background-color: #001230; }
 
 
 
-<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">4.<span class="hljs-attribute" style="font-weight: 700;"><h1></span>個人檔案<span class="hljs-attribute" style="font-weight: 700;"></h1></span></pre>
+<figure class="wp-block-image size-large"><img src="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-252.png" alt="" class="wp-image-170" srcset="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-252.png 656w,https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-252-300x37.png 300w" sizes="(max-width: 656px) 100vw, 656px"></figure>
 
 
 
@@ -355,7 +370,7 @@ body.custom-background { background-color: #001230; }
 
 
 
-<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-attribute" style="font-weight: 700;"><p></span>頭貼<span class="hljs-attribute" style="font-weight: 700;"></p></span></pre>
+<figure class="wp-block-image size-large is-resized"><img src="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-256.png" alt="" class="wp-image-174" width="624" height="76" srcset="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-256.png 696w,https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-256-300x37.png 300w" sizes="(max-width: 624px) 100vw, 624px"></figure>
 
 
 
@@ -363,7 +378,7 @@ body.custom-background { background-color: #001230; }
 
 
 
-<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-number" style="color: rgb(136, 0, 0);">5</span>.<span class="hljs-variable" style="color: rgb(188, 96, 96);"><hr/></span></pre>
+<figure class="wp-block-image size-large"><img src="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-257.png" alt="" class="wp-image-175" srcset="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-257.png 647w,https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-257-300x37.png 300w" sizes="(max-width: 647px) 100vw, 647px"></figure>
 
 
 
@@ -371,7 +386,7 @@ body.custom-background { background-color: #001230; }
 
 
 
-<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="xml">6.<span class="hljs-tag"><<span class="hljs-name" style="font-weight: 700;">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string" style="color: rgb(136, 0, 0);">”me.png”</span> /></span></span></pre>
+<figure class="wp-block-image size-large"><img src="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-258.png" alt="" class="wp-image-176" srcset="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-258.png 642w,https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-258-300x36.png 300w" sizes="(max-width: 642px) 100vw, 642px"></figure>
 
 
 
@@ -379,7 +394,7 @@ body.custom-background { background-color: #001230; }
 
 
 
-<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="xml">7.<span class="hljs-tag"><<span class="hljs-name" style="font-weight: 700;">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string" style="color: rgb(136, 0, 0);">”https://rinkeby.etherscan.io/</span>" <span class="hljs-attr">target</span>=<span class="hljs-string" style="color: rgb(136, 0, 0);">”_blank”</span>></span>etherscan 查詢網站<span class="hljs-tag"></<span class="hljs-name" style="font-weight: 700;">a</span>></span></span></pre>
+<figure class="wp-block-image size-large"><img src="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-259.png" alt="" class="wp-image-177" srcset="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-259.png 643w,https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-259-300x37.png 300w" sizes="(max-width: 643px) 100vw, 643px"></figure>
 
 
 
@@ -387,7 +402,7 @@ body.custom-background { background-color: #001230; }
 
 
 
-<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="xml">8. <span class="hljs-tag"><<span class="hljs-name" style="font-weight: 700;">input</span> <span class="hljs-attr">type</span> =<span class="hljs-string" style="color: rgb(136, 0, 0);">”checkbox”</span> <span class="hljs-attr">name</span>=<span class="hljs-string" style="color: rgb(136, 0, 0);">”gender”</span> <span class="hljs-attr">value</span>=<span class="hljs-string" style="color: rgb(136, 0, 0);">”1</span>"/></span>male</span></pre>
+<figure class="wp-block-image size-large"><img src="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-260.png" alt="" class="wp-image-178" srcset="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-260.png 644w,https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-260-300x37.png 300w" sizes="(max-width: 644px) 100vw, 644px"></figure>
 
 
 
@@ -395,7 +410,7 @@ body.custom-background { background-color: #001230; }
 
 
 
-<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">9.<span class="hljs-attribute" style="font-weight: 700;"><form></span><span class="hljs-attribute" style="font-weight: 700;"></form></span></pre>
+<figure class="wp-block-image size-large"><img src="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-261.png" alt="" class="wp-image-179" srcset="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-261.png 623w,https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-261-300x37.png 300w" sizes="(max-width: 623px) 100vw, 623px"></figure>
 
 
 
@@ -403,7 +418,7 @@ body.custom-background { background-color: #001230; }
 
 
 
-<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><input <span class="hljs-built_in" style="color: rgb(57, 115, 0);">type</span>=”<span class="hljs-built_in" style="color: rgb(57, 115, 0);">text</span>” <span class="hljs-built_in" style="color: rgb(57, 115, 0);">name</span>=”<span class="hljs-built_in" style="color: rgb(57, 115, 0);">name</span>”></pre>
+<figure class="wp-block-image size-large"><img src="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-262.png" alt="" class="wp-image-180" srcset="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-262.png 643w,https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-262-300x37.png 300w" sizes="(max-width: 643px) 100vw, 643px"></figure>
 
 
 
@@ -411,7 +426,7 @@ body.custom-background { background-color: #001230; }
 
 
 
-<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="xml"><span class="hljs-tag"><<span class="hljs-name" style="font-weight: 700;">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string" style="color: rgb(136, 0, 0);">”email”</span> <span class="hljs-attr">name</span>=<span class="hljs-string" style="color: rgb(136, 0, 0);">”mail”</span>></span></span></pre>
+<figure class="wp-block-image size-large"><img src="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-263.png" alt="" class="wp-image-181" srcset="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-263.png 606w,https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-263-300x37.png 300w" sizes="(max-width: 606px) 100vw, 606px"></figure>
 
 
 
@@ -419,7 +434,7 @@ body.custom-background { background-color: #001230; }
 
 
 
-<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="xml"> <span class="hljs-tag"><<span class="hljs-name" style="font-weight: 700;">textarea</span> <span class="hljs-attr">name</span>=<span class="hljs-string" style="color: rgb(136, 0, 0);">”message”</span>></span><span class="hljs-tag"></<span class="hljs-name" style="font-weight: 700;">textarea</span>></span></span></pre>
+<figure class="wp-block-image size-large"><img src="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-264.png" alt="" class="wp-image-182" srcset="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-264.png 647w,https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-264-300x37.png 300w" sizes="(max-width: 647px) 100vw, 647px"></figure>
 
 
 
@@ -427,7 +442,7 @@ body.custom-background { background-color: #001230; }
 
 
 
-<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="xml"><span class="hljs-tag"><<span class="hljs-name" style="font-weight: 700;">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string" style="color: rgb(136, 0, 0);">”btn</span> <span class="hljs-attr">btn-default</span>” <span class="hljs-attr">onclick</span>=<span class="hljs-string" style="color: rgb(136, 0, 0);">”record()”</span> <span class="hljs-attr">type</span>=<span class="hljs-string" style="color: rgb(136, 0, 0);">”submit1</span>"></span>submit<span class="hljs-tag"></<span class="hljs-name" style="font-weight: 700;">button</span>></span></span></pre>
+<figure class="wp-block-image size-large"><img src="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-265.png" alt="" class="wp-image-183" srcset="https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-265.png 642w,https://jackeyliutw.github.io/wp-content/uploads/2020/07/Screenshot-265-300x47.png 300w" sizes="(max-width: 642px) 100vw, 642px"></figure>
 
 
 
@@ -448,7 +463,7 @@ body.custom-background { background-color: #001230; }
 
 	
 	<footer class="entry-footer">
-		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://jackeyliutw.github.io/2020/07/01/23/42/151/" rel="bookmark"><time class="entry-date published" datetime="2020-07-01T23:42:58+08:00">July 1, 2020</time><time class="updated" datetime="2020-07-01T23:43:00+08:00">July 1, 2020</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="https://jackeyliutw.github.io/author/admin/">admin</a></span></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="https://jackeyliutw.github.io/category/blockchain/" rel="category tag">Blockchain</a></span>			</footer>
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://jackeyliutw.github.io/2020/07/01/23/42/151/" rel="bookmark"><time class="entry-date published" datetime="2020-07-01T23:42:58+08:00">July 1, 2020</time><time class="updated" datetime="2020-07-02T00:34:32+08:00">July 2, 2020</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="https://jackeyliutw.github.io/author/admin/">admin</a></span></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="https://jackeyliutw.github.io/category/blockchain/" rel="category tag">Blockchain</a></span>			</footer>
 
 </article>
 
