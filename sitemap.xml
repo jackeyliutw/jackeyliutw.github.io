@@ -260,7 +260,7 @@ body.custom-background { background-color: #001230; }
 <ul class="sub-menu">
 	<li id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-55"><a href="https://jackeyliutw.github.io/2020/06/30/15/25/46/">程式麻瓜打造區塊鏈網站-系列文索引</a></li>
 	<li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-54"><a href="https://jackeyliutw.github.io/2020/06/30/15/30/50/">程式麻瓜打造區塊鏈網站-系列文1-網頁的編輯方法</a></li>
-	<li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-85"><a href="https://jackeyliutw.github.io/2020/07/01/00/03/57/">程式麻瓜打造區塊鏈網站2-HTML</a></li>
+	<li id="menu-item-199" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-199"><a href="https://jackeyliutw.github.io/2020/07/01/23/42/151/">程式麻瓜打造區塊鏈網站2-HTML介紹</a></li>
 	<li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-86"><a href="https://jackeyliutw.github.io/2020/07/01/00/18/65/">程式麻瓜打造區塊鏈網站3-css/js和網頁特效</a></li>
 	<li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-87"><a href="https://jackeyliutw.github.io/2020/07/01/11/49/79/">程式麻瓜打造區塊鏈網站4-超強大chrome編輯網頁小工具VisBug</a></li>
 </ul>
@@ -269,6 +269,7 @@ body.custom-background { background-color: #001230; }
 <li id="menu-item-110" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-110"><a target="_blank" rel="noopener noreferrer" href="https://jackeyliu.000webhostapp.com/">Upload to blockchain service</a></li>
 <li id="menu-item-111" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111"><a href="https://jackeyliu.000webhostapp.com/">資料上鏈服務</a></li>
 <li id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"><a href="https://jackeyliutw.github.io/elementor/">ELEMENTOR</a></li>
+<li id="menu-item-194" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-194"><a href="https://jackeyliutw.github.io/elementor-186/">Elementor #186</a></li>
 </ul></div>			</nav><!-- .main-navigation -->
 		
 					<nav id="social-navigation" class="social-navigation" role="navigation">
@@ -306,7 +307,7 @@ body.custom-background { background-color: #001230; }
 <div style="height:560px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px; width: 100%;"><div style="height:540px; padding:0px; margin:0px; width: 100%;"><iframe src="https://widget.coinlib.io/widget?type=chart&amp;theme=dark&amp;coin_id=859&amp;pref_coin_id=1505" width="100%" height="536px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;line-height:14px;"></iframe></div><div style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;"><a href="https://coinlib.io" target="_blank" style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px" rel="noopener noreferrer">Cryptocurrency Prices</a>&nbsp;by Coinlib</div></div>
 
 
-<ul class="wp-block-categories wp-block-categories-list">	<li class="cat-item cat-item-4"><a href="https://jackeyliutw.github.io/category/blockchain/">Blockchain</a> (6)
+<ul class="wp-block-categories wp-block-categories-list">	<li class="cat-item cat-item-4"><a href="https://jackeyliutw.github.io/category/blockchain/">Blockchain</a> (5)
 </li>
 	<li class="cat-item cat-item-1"><a href="https://jackeyliutw.github.io/category/uncategorized/">Uncategorized</a> (1)
 </li>
@@ -315,8 +316,8 @@ body.custom-background { background-color: #001230; }
 <ul class="wp-block-latest-posts wp-block-latest-posts__list alignleft has-dates"><li><a href="https://jackeyliutw.github.io/2020/07/01/23/42/151/">程式麻瓜打造區塊鏈網站2-HTML介紹</a><time datetime="2020-07-01T23:42:58+08:00" class="wp-block-latest-posts__post-date">July 1, 2020</time></li>
 <li><a href="https://jackeyliutw.github.io/2020/07/01/11/49/79/">程式麻瓜打造區塊鏈網站4-超強大chrome編輯網頁小工具VisBug</a><time datetime="2020-07-01T11:49:23+08:00" class="wp-block-latest-posts__post-date">July 1, 2020</time></li>
 <li><a href="https://jackeyliutw.github.io/2020/07/01/00/18/65/">程式麻瓜打造區塊鏈網站3-css/js和網頁特效</a><time datetime="2020-07-01T00:18:29+08:00" class="wp-block-latest-posts__post-date">July 1, 2020</time></li>
-<li><a href="https://jackeyliutw.github.io/2020/07/01/00/03/57/">程式麻瓜打造區塊鏈網站2-HTML</a><time datetime="2020-07-01T00:03:35+08:00" class="wp-block-latest-posts__post-date">July 1, 2020</time></li>
 <li><a href="https://jackeyliutw.github.io/2020/06/30/15/30/50/">程式麻瓜打造區塊鏈網站-系列文1-網頁的編輯方法</a><time datetime="2020-06-30T15:30:47+08:00" class="wp-block-latest-posts__post-date">June 30, 2020</time></li>
+<li><a href="https://jackeyliutw.github.io/2020/06/30/15/25/46/">程式麻瓜打造區塊鏈網站-系列文索引</a><time datetime="2020-06-30T15:25:57+08:00" class="wp-block-latest-posts__post-date">June 30, 2020</time></li>
 </ul>			</div><!-- .entry-content -->
 
 	

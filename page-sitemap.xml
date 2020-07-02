@@ -5,6 +5,10 @@
 		<lastmod>2020-07-01T15:57:34+00:00</lastmod>
 	</url>
 	<url>
+		<loc>https://jackeyliutw.github.io/blog/</loc>
+		<lastmod>2020-07-01T08:33:46+00:00</lastmod>
+	</url>
+	<url>
 		<loc>https://jackeyliutw.github.io/elementor/</loc>
 		<lastmod>2020-07-01T13:18:49+00:00</lastmod>
 		<image:image>
@@ -45,6 +49,22 @@
 		<image:image>
 			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/elementor/thumbs/Manaslu-ortttjn9q4k4ft0nog3k109akx8yypihvpnwbvq1k8.png</image:loc>
 			<image:caption><![CDATA[Manaslu.png]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://jackeyliutw.github.io/elementor-186/</loc>
+		<lastmod>2020-07-02T03:58:35+00:00</lastmod>
+		<image:image>
+			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/2020/07/team_3.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/2020/07/25388788904_72d2f5ec6f_z.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/2020/07/team_4.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/2020/07/team_2.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
