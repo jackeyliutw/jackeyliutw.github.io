@@ -21,7 +21,7 @@
 
 	
 	<title>程式麻瓜打造區塊鏈網站6–Hello World - DappDev</title>
-	<meta name="description" content="程式麻瓜打造區塊鏈網站6–Hello World - 在學習程式語言的時候通常都會從Hello World這個簡單的寫程式來看一個語言的架構，Hello World 程式就是單純使執行結果顯示Hello World字串而已，然而solidity並不像C語言等有print列印出字的這個指令，所以要讓執行結果顯示helloworld字樣並沒有特定方法，以下舉兩個例子分別是用變數的方式顯示，和讓函式傳回回傳值。 劉承瑋">
+	<meta name="description" content="程式麻瓜打造區塊鏈網站6–Hello World Blockchain - 在學習程式語言的時候通常都會從Hello World這個簡單的寫程式來看一個語言的架構，Hello World 程式就是單純使執行結果顯示Hello World字串而已，然而solidity並不像C語言等有print列印出字的這個指令，所以要讓執行結果顯示helloworld字樣並沒有特定方法，以下舉兩個例子分別是用變數的方式顯示，和讓函式傳回回傳值。 劉承瑋">
 	<meta name="robots" content="index, follow">
 	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -29,11 +29,11 @@
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="程式麻瓜打造區塊鏈網站6–Hello World - DappDev">
-	<meta property="og:description" content="程式麻瓜打造區塊鏈網站6–Hello World - 在學習程式語言的時候通常都會從Hello World這個簡單的寫程式來看一個語言的架構，Hello World 程式就是單純使執行結果顯示Hello World字串而已，然而solidity並不像C語言等有print列印出字的這個指令，所以要讓執行結果顯示helloworld字樣並沒有特定方法，以下舉兩個例子分別是用變數的方式顯示，和讓函式傳回回傳值。 劉承瑋">
+	<meta property="og:description" content="程式麻瓜打造區塊鏈網站6–Hello World Blockchain - 在學習程式語言的時候通常都會從Hello World這個簡單的寫程式來看一個語言的架構，Hello World 程式就是單純使執行結果顯示Hello World字串而已，然而solidity並不像C語言等有print列印出字的這個指令，所以要讓執行結果顯示helloworld字樣並沒有特定方法，以下舉兩個例子分別是用變數的方式顯示，和讓函式傳回回傳值。 劉承瑋">
 	<meta property="og:url" content="https://jackeyliutw.github.io/2020/07/18/16/24/303/">
 	<meta property="og:site_name" content="劉承瑋">
 	<meta property="article:published_time" content="2020-07-18T08:24:52+00:00">
-	<meta property="article:modified_time" content="2020-07-18T09:16:21+00:00">
+	<meta property="article:modified_time" content="2020-07-22T16:05:24+00:00">
 	<meta property="og:image" content="https://cdn-images-1.medium.com/max/1080/1*vvpE4t4d9MboWRRcFsA3pw.gif">
 	<meta name="twitter:card" content="summary_large_image">
 	<script type="application/ld+json" class="yoast-schema-graph">{
@@ -75,8 +75,8 @@
 	                "@id": "https://jackeyliutw.github.io/2020/07/18/16/24/303/#primaryimage"
 	            },
 	            "datePublished": "2020-07-18T08:24:52+00:00",
-	            "dateModified": "2020-07-18T09:16:21+00:00",
-	            "description": "\u7a0b\u5f0f\u9ebb\u74dc\u6253\u9020\u5340\u584a\u93c8\u7db2\u7ad96\u2013Hello World - \u5728\u5b78\u7fd2\u7a0b\u5f0f\u8a9e\u8a00\u7684\u6642\u5019\u901a\u5e38\u90fd\u6703\u5f9eHello World\u9019\u500b\u7c21\u55ae\u7684\u5beb\u7a0b\u5f0f\u4f86\u770b\u4e00\u500b\u8a9e\u8a00\u7684\u67b6\u69cb\uff0cHello World \u7a0b\u5f0f\u5c31\u662f\u55ae\u7d14\u4f7f\u57f7\u884c\u7d50\u679c\u986f\u793aHello World\u5b57\u4e32\u800c\u5df2\uff0c\u7136\u800csolidity\u4e26\u4e0d\u50cfC\u8a9e\u8a00\u7b49\u6709print\u5217\u5370\u51fa\u5b57\u7684\u9019\u500b\u6307\u4ee4\uff0c\u6240\u4ee5\u8981\u8b93\u57f7\u884c\u7d50\u679c\u986f\u793ahelloworld\u5b57\u6a23\u4e26\u6c92\u6709\u7279\u5b9a\u65b9\u6cd5\uff0c\u4ee5\u4e0b\u8209\u5169\u500b\u4f8b\u5b50\u5206\u5225\u662f\u7528\u8b8a\u6578\u7684\u65b9\u5f0f\u986f\u793a\uff0c\u548c\u8b93\u51fd\u5f0f\u50b3\u56de\u56de\u50b3\u503c\u3002 \u5289\u627f\u744b",
+	            "dateModified": "2020-07-22T16:05:24+00:00",
+	            "description": "\u7a0b\u5f0f\u9ebb\u74dc\u6253\u9020\u5340\u584a\u93c8\u7db2\u7ad96\u2013Hello World Blockchain - \u5728\u5b78\u7fd2\u7a0b\u5f0f\u8a9e\u8a00\u7684\u6642\u5019\u901a\u5e38\u90fd\u6703\u5f9eHello World\u9019\u500b\u7c21\u55ae\u7684\u5beb\u7a0b\u5f0f\u4f86\u770b\u4e00\u500b\u8a9e\u8a00\u7684\u67b6\u69cb\uff0cHello World \u7a0b\u5f0f\u5c31\u662f\u55ae\u7d14\u4f7f\u57f7\u884c\u7d50\u679c\u986f\u793aHello World\u5b57\u4e32\u800c\u5df2\uff0c\u7136\u800csolidity\u4e26\u4e0d\u50cfC\u8a9e\u8a00\u7b49\u6709print\u5217\u5370\u51fa\u5b57\u7684\u9019\u500b\u6307\u4ee4\uff0c\u6240\u4ee5\u8981\u8b93\u57f7\u884c\u7d50\u679c\u986f\u793ahelloworld\u5b57\u6a23\u4e26\u6c92\u6709\u7279\u5b9a\u65b9\u6cd5\uff0c\u4ee5\u4e0b\u8209\u5169\u500b\u4f8b\u5b50\u5206\u5225\u662f\u7528\u8b8a\u6578\u7684\u65b9\u5f0f\u986f\u793a\uff0c\u548c\u8b93\u51fd\u5f0f\u50b3\u56de\u56de\u50b3\u503c\u3002 \u5289\u627f\u744b",
 	            "inLanguage": "en-US",
 	            "potentialAction": [
 	                {
@@ -98,7 +98,7 @@
 	            },
 	            "headline": "\u7a0b\u5f0f\u9ebb\u74dc\u6253\u9020\u5340\u584a\u93c8\u7db2\u7ad96\u2013Hello World",
 	            "datePublished": "2020-07-18T08:24:52+00:00",
-	            "dateModified": "2020-07-18T09:16:21+00:00",
+	            "dateModified": "2020-07-22T16:05:24+00:00",
 	            "commentCount": 0,
 	            "mainEntityOfPage": {
 	                "@id": "https://jackeyliutw.github.io/2020/07/18/16/24/303/#webpage"
@@ -380,7 +380,12 @@ body.custom-background { background-color: #001230; }
 
 
 
-<figure><iframe width="700" height="328" src="/media/6bbc0b9f715ac2ee97155fccec1464a2" allowfullscreen=""></iframe></figure>
+<span id="more-303"></span>
+
+
+
+<iframe src="https://carbon.now.sh/embed/vdze9SwOnPJUNQg26ptv" style="width: 673px; height: 376px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+</iframe>
 
 
 
@@ -437,7 +442,7 @@ body.custom-background { background-color: #001230; }
 
 	
 	<footer class="entry-footer">
-		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://jackeyliutw.github.io/2020/07/18/16/24/303/" rel="bookmark"><time class="entry-date published" datetime="2020-07-18T16:24:52+08:00">July 18, 2020</time><time class="updated" datetime="2020-07-18T17:16:21+08:00">July 18, 2020</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="https://jackeyliutw.github.io/author/admin/">admin</a></span></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="https://jackeyliutw.github.io/tag/blockchain/" rel="tag">blockchain</a>, <a href="https://jackeyliutw.github.io/tag/dapp/" rel="tag">Dapp</a>, <a href="https://jackeyliutw.github.io/tag/html/" rel="tag">HTML</a>, <a href="https://jackeyliutw.github.io/tag/smartcontract/" rel="tag">smartcontract</a>, <a href="https://jackeyliutw.github.io/tag/%e5%8d%80%e5%a1%8a%e9%8f%88/" rel="tag">區塊鏈</a>, <a href="https://jackeyliutw.github.io/tag/%e6%99%ba%e8%83%bd%e5%90%88%e7%b4%84/" rel="tag">智能合約</a>, <a href="https://jackeyliutw.github.io/tag/%e7%b6%b2%e9%a0%81%e6%9e%b6%e8%a8%ad/" rel="tag">網頁架設</a>, <a href="https://jackeyliutw.github.io/tag/%e7%b6%b2%e9%a0%81%e7%a8%8b%e5%bc%8f/" rel="tag">網頁程式</a>, <a href="https://jackeyliutw.github.io/tag/%e7%b6%b2%e9%a0%81%e8%a8%ad%e8%a8%88/" rel="tag">網頁設計</a></span>			</footer>
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://jackeyliutw.github.io/2020/07/18/16/24/303/" rel="bookmark"><time class="entry-date published" datetime="2020-07-18T16:24:52+08:00">July 18, 2020</time><time class="updated" datetime="2020-07-23T00:05:24+08:00">July 23, 2020</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="https://jackeyliutw.github.io/author/admin/">admin</a></span></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="https://jackeyliutw.github.io/tag/blockchain/" rel="tag">blockchain</a>, <a href="https://jackeyliutw.github.io/tag/dapp/" rel="tag">Dapp</a>, <a href="https://jackeyliutw.github.io/tag/html/" rel="tag">HTML</a>, <a href="https://jackeyliutw.github.io/tag/smartcontract/" rel="tag">smartcontract</a>, <a href="https://jackeyliutw.github.io/tag/%e5%8d%80%e5%a1%8a%e9%8f%88/" rel="tag">區塊鏈</a>, <a href="https://jackeyliutw.github.io/tag/%e6%99%ba%e8%83%bd%e5%90%88%e7%b4%84/" rel="tag">智能合約</a>, <a href="https://jackeyliutw.github.io/tag/%e7%b6%b2%e9%a0%81%e6%9e%b6%e8%a8%ad/" rel="tag">網頁架設</a>, <a href="https://jackeyliutw.github.io/tag/%e7%b6%b2%e9%a0%81%e7%a8%8b%e5%bc%8f/" rel="tag">網頁程式</a>, <a href="https://jackeyliutw.github.io/tag/%e7%b6%b2%e9%a0%81%e8%a8%ad%e8%a8%88/" rel="tag">網頁設計</a></span>			</footer>
 
 </article>
 
