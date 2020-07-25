@@ -2,81 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://jackeyliutw.github.io/</loc>
-		<lastmod>2020-07-23T15:35:01+00:00</lastmod>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/2020/07/1595343143304.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/2020/07/1595342902923.png</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://jackeyliutw.github.io/elementor/</loc>
-		<lastmod>2020-07-01T13:18:49+00:00</lastmod>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/2020/07/Untitled-1.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/elementor/thumbs/Nano-orttt9b1my5yw3foctmnrkv81onxm1dg6ahk1u5dgo.png</image:loc>
-			<image:caption><![CDATA[Nano.png]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/elementor/thumbs/Physiocare.-ortttb6q0m8jjbcy1ufwwke58geo1fkwujsj0e2l48.png</image:loc>
-			<image:caption><![CDATA[Physiocare..png]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/elementor/thumbs/Edgewater.-ortttc4k7g9tuxbkwcujh25ltua194on6og0ho16y0.png</image:loc>
-			<image:caption><![CDATA[Edgewater..png]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/elementor/thumbs/Modal.-orttte08l4cei58uldnsm1oj0m0roiw3uxqzg7yelk.png</image:loc>
-			<image:caption><![CDATA[Modal..png]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/elementor/thumbs/Lie%CC%80s-Luisa-Garci%CC%81a-ortttey2rydotr7hfw2f6jfzlzw4w7zu72egxhx0fc.png</image:loc>
-			<image:caption><![CDATA[Liès-Luisa-García.png]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/elementor/thumbs/Lobster.-ortttfvwysez5d64aeh1r17g7dri3x3kj71yervm94.png</image:loc>
-			<image:caption><![CDATA[Lobster..png]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/elementor/thumbs/Me.-orttthrlcghjsl3dzfaaw0qde5i8jbb17gcxdbstwo.png</image:loc>
-			<image:caption><![CDATA[Me..png]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/elementor/thumbs/Parisian.-ortttipfjaiu4720txoxgihtzjdlr0erjl0eulrfqg.png</image:loc>
-			<image:caption><![CDATA[Parisian..png]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/elementor/thumbs/Manaslu-ortttjn9q4k4ft0nog3k109akx8yypihvpnwbvq1k8.png</image:loc>
-			<image:caption><![CDATA[Manaslu.png]]></image:caption>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://jackeyliutw.github.io/elementor-186/</loc>
-		<lastmod>2020-07-10T09:34:03+00:00</lastmod>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/2020/07/team_3.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/2020/07/25388788904_72d2f5ec6f_z.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/2020/07/team_4.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/2020/07/team_2.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/2020/07/ma.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/2020/07/iPhone-7-2.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/2020/07/Mackbook2.png</image:loc>
-		</image:image>
+		<lastmod>2020-07-25T15:58:12+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://jackeyliutw.github.io/blog/</loc>
@@ -136,6 +62,15 @@
 		<image:image>
 			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/2020/07/user.jpg</image:loc>
 			<image:caption><![CDATA[&lt;span  class="uc_style_uc_client_testimonial_carousel_elementor_uc_items_attribute_title" style="color:#E5E5E5;"&gt;Jhon Doe&lt;/span&gt;]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://jackeyliutw.github.io/about-me/</loc>
+		<lastmod>2020-07-25T15:35:20+00:00</lastmod>
+		<image:image>
+			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/elementor/thumbs/1595342902923-osssnarvkwayztd77uuht47twoakk6p3q2hiuvxj9s.png</image:loc>
+			<image:title><![CDATA[1595342902923]]></image:title>
+			<image:caption><![CDATA[1595342902923]]></image:caption>
 		</image:image>
 	</url>
 </urlset>
