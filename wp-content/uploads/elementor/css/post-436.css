@@ -92,16 +92,17 @@
 .elementor-436 .elementor-element.elementor-element-4f3ec2f {margin-top: -116px;margin-bottom: 0px;padding: 40px 40px 40px 40px;transform-origin: center center;}
 .elementor-436 .elementor-element.elementor-element-2d0ff68 > .elementor-widget-container {margin: -17px 0px 0px 0px;}
 .elementor-436 .elementor-element.elementor-element-802c69a .elementor-text-editor {text-align: center;}
-.elementor-436 .elementor-element.elementor-element-802c69a {color: #fff;top: 221px;}
-body:not(.rtl) .elementor-436 .elementor-element.elementor-element-802c69a {left: -7px;}
-body.rtl .elementor-436 .elementor-element.elementor-element-802c69a {right: -7px;}
+.elementor-436 .elementor-element.elementor-element-802c69a {color: #fff;}
 @media (max-width:1024px) {.elementor-436 .elementor-element.elementor-element-63050a7 {padding: 0px 0px 17px 0px;}
 	.elementor-436 .elementor-element.elementor-element-a55cc3e {margin-top: -41px;margin-bottom: 0px;}
 	.elementor-436 .elementor-element.elementor-element-82c3da3 {margin-top: 37px;margin-bottom: 0px;}}
 @media (max-width:767px) {.elementor-436 .elementor-element.elementor-element-ca27b81 > .elementor-shape-bottom svg {width: calc(300% + 1.3px);}
 	.elementor-436 .elementor-element.elementor-element-a6bd98 .elementor-icon-box-icon {margin-bottom: 15px;}
 	.elementor-436 .elementor-element.elementor-element-59adc015 .elementor-icon-box-icon {margin-bottom: 15px;}
-	.elementor-436 .elementor-element.elementor-element-22472d69 .elementor-icon-box-icon {margin-bottom: 15px;}}
+	.elementor-436 .elementor-element.elementor-element-22472d69 .elementor-icon-box-icon {margin-bottom: 15px;}
+	.elementor-436 .elementor-element.elementor-element-7f07965 {margin-top: 0px;margin-bottom: 0px;}
+	.elementor-436 .elementor-element.elementor-element-4f3ec2f {margin-top: -17px;margin-bottom: 0px;padding: 13px 0px 0px 0px;}
+	.elementor-436 .elementor-element.elementor-element-2d0ff68 > .elementor-widget-container {margin: -99px 0px 0px 0px;padding: 0px 0px 0px 0px;}}
 .elementor-shape-bottom {bottom: -1px;animation: wave 10s cubic-bezier(.36,.45,.63,.53) infinite;width: 210%;}
 @keyframes wave {0% {margin-left: 0;}
 	50% {margin-left: -380px;}

@@ -2,11 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://jackeyliutw.github.io/</loc>
-		<lastmod>2020-07-25T15:58:12+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://jackeyliutw.github.io/blog/</loc>
-		<lastmod>2020-07-10T14:04:32+00:00</lastmod>
+		<lastmod>2020-07-28T11:13:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://jackeyliutw.github.io/coin-price/</loc>
@@ -17,56 +13,8 @@
 		<lastmod>2020-07-18T08:46:42+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://jackeyliutw.github.io/me/</loc>
-		<lastmod>2020-07-22T16:28:45+00:00</lastmod>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/2020/07/prob2.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/elementor/thumbs/sig-osunbtvj98nwbfm64a6lcue04obxfhfo8yina0sp1w.png</image:loc>
-			<image:title><![CDATA[sig.png]]></image:title>
-			<image:caption><![CDATA[sig.png]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/elementor/thumbs/intuit-osunbvr70zcjdy4prvwhpceqzp6y5y0va29y6cqrxy.png</image:loc>
-			<image:caption><![CDATA[intuit.png]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/elementor/thumbs/github-osunbvr70zcjdy4prvwhpceqzp6y5y0va29y6cqrxy.png</image:loc>
-			<image:caption><![CDATA[github.png]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/elementor/thumbs/cp-osunbvr70zcjdy4prvwhpceqzp6y5y0va29y6cqrxy.png</image:loc>
-			<image:caption><![CDATA[cp.png]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/elementor/thumbs/cisco-osunbvr70zcjdy4prvwhpceqzp6y5y0va29y6cqrxy.png</image:loc>
-			<image:caption><![CDATA[cisco.png]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/elementor/thumbs/nefco-osunbvr70zcjdy4prvwhpceqzp6y5y0va29y6cqrxy.png</image:loc>
-			<image:caption><![CDATA[nefco.png]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/2020/07/t1.jpg</image:loc>
-			<image:caption><![CDATA[&lt;span  class="uc_style_uc_client_testimonial_carousel_elementor_uc_items_attribute_title" style="color:#E5E5E5;"&gt;Jhon Doe&lt;/span&gt;]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/2020/07/t3.jpg</image:loc>
-			<image:caption><![CDATA[&lt;span  class="uc_style_uc_client_testimonial_carousel_elementor_uc_items_attribute_title" style="color:#E5E5E5;"&gt;Jhon Doe&lt;/span&gt;]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/2020/07/t2.jpg</image:loc>
-			<image:caption><![CDATA[&lt;span  class="uc_style_uc_client_testimonial_carousel_elementor_uc_items_attribute_title" style="color:#E5E5E5;"&gt;Jhon Doe&lt;/span&gt;]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/2020/07/user.jpg</image:loc>
-			<image:caption><![CDATA[&lt;span  class="uc_style_uc_client_testimonial_carousel_elementor_uc_items_attribute_title" style="color:#E5E5E5;"&gt;Jhon Doe&lt;/span&gt;]]></image:caption>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://jackeyliutw.github.io/about-me/</loc>
-		<lastmod>2020-07-25T16:56:05+00:00</lastmod>
+		<lastmod>2020-07-28T14:39:32+00:00</lastmod>
 		<image:image>
 			<image:loc>https://jackeyliutw.github.io/wp-content/uploads/elementor/thumbs/1595342902923-osssnarvkwayztd77uuht47twoakk6p3q2hiuvxj9s.png</image:loc>
 			<image:title><![CDATA[1595342902923]]></image:title>
