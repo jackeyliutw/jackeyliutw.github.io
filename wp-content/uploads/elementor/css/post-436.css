@@ -4,7 +4,7 @@
 body:not(.rtl) .elementor-436 .elementor-element.elementor-element-0b58eb0 {left: 0px;}
 body.rtl .elementor-436 .elementor-element.elementor-element-0b58eb0 {right: 0px;}
 .elementor-436 .elementor-element.elementor-element-ca27b81 > .elementor-container {max-width: 500px;}
-.elementor-436 .elementor-element.elementor-element-ca27b81 {overflow: hidden;transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;padding: 322px 0px 6px 0px;}
+.elementor-436 .elementor-element.elementor-element-ca27b81 {overflow: hidden;transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;padding: 346px 0px 6px 0px;}
 .elementor-436 .elementor-element.elementor-element-ca27b81:not(.elementor-motion-effects-element-type-background), .elementor-436 .elementor-element.elementor-element-ca27b81 > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #013878;}
 .elementor-436 .elementor-element.elementor-element-ca27b81 > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
 .elementor-436 .elementor-element.elementor-element-ca27b81 > .elementor-shape-bottom svg {width: calc(100% + 1.3px);height: 113px;}
@@ -118,7 +118,7 @@ body.rtl .elementor-436 .elementor-element.elementor-element-0b58eb0 {right: 0px
 	.elementor-436 .elementor-element.elementor-element-7f07965 {margin-top: 0px;margin-bottom: 0px;}
 	.elementor-436 .elementor-element.elementor-element-4f3ec2f {margin-top: -17px;margin-bottom: 0px;padding: 13px 0px 0px 0px;}
 	.elementor-436 .elementor-element.elementor-element-2d0ff68 > .elementor-widget-container {margin: -99px 0px 0px 0px;padding: 0px 0px 0px 0px;}}
-.elementor-shape-bottom {bottom: -1px;animation: wave 10s cubic-bezier(.36,.45,.63,.53) infinite;width: 210%;}
+.elementor-shape-bottom {bottom: -1px;animation: wave 10s cubic-bezier(.36,.45,.63,.53) infinite;width: 220%;}
 @keyframes wave {0% {margin-left: 0;}
-	50% {margin-left: -380px;}
+	50% {margin-left: -375px;}
 	100% {margin-left: 0px;}}
