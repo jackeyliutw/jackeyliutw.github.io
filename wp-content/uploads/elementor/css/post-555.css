@@ -1,0 +1,11 @@
+.elementor-555 .elementor-element.elementor-element-2d654776 > .elementor-container {max-width: 500px;}
+.elementor-555 .elementor-element.elementor-element-2d654776:not(.elementor-motion-effects-element-type-background), .elementor-555 .elementor-element.elementor-element-2d654776 > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #013878;}
+.elementor-555 .elementor-element.elementor-element-2d654776 {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;padding: 246px 0px 44px 0px;}
+.elementor-555 .elementor-element.elementor-element-2d654776 > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
+.elementor-555 .elementor-element.elementor-element-2d654776 > .elementor-shape-bottom svg {width: calc(100% + 1.3px);height: 113px;}
+@media (max-width:767px) {.elementor-555 .elementor-element.elementor-element-2d654776 > .elementor-shape-bottom svg {width: calc(300% + 1.3px);}}
+body {overflow-x: hidden;}
+.elementor-shape-bottom {bottom: -1px;animation: wave 10s cubic-bezier(.36,.45,.63,.53) infinite;width: 210%;}
+@keyframes wave {0% {margin-left: 0;}
+	50% {margin-left: -380px;}
+	100% {margin-left: 0px;}}
